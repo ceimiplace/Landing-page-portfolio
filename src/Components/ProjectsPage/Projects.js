@@ -7,8 +7,8 @@ export default function Projects() {
     <div className="bg-slate-200 grow">
       <Section title={"Projects made with Tailwind and React.js"}>
         <ProjectComponent
-          src={"/perfume.jpg"}
-          to="/"
+          src={"/images/perfume.jpg"}
+          to="/perfume"
           description={
             "Responsive card component taken as a challenge from FrontMentor.com"
           }
