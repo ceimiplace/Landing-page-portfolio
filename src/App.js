@@ -2,11 +2,16 @@ import { Routes, Route } from "react-router-dom";
 import Footer from "./Footer";
 import Main from "./Main";
 import Navigation from "./Navigation";
+
 function App() {
   return (
-    <div className="min-h-screen border-2 border-rose-400">
+    <div className="min-h-screen mx-auto max-w-screen-2xl flex flex-col  px-4">
       <Navigation />
-      <Main></Main>
+
+      <Main>
+        <Routes></Routes>
+      </Main>
+
       <Footer />
     </div>
   );

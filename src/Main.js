@@ -1,3 +1,3 @@
-export default function Main() {
-  return <div className="border-2 border-rose-400">Hello main</div>;
+export default function Main({ children }) {
+  return <div className="grow border-2 border-rose-400">{children}</div>;
 }
