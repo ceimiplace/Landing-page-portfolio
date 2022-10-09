@@ -1,6 +1,6 @@
-.container {
+.perfume-container {
   display: flex;
-
+  flex-grow: 1;
   background-color: bisque;
   align-items: center;
   justify-content: center;

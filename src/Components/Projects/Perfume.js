@@ -6,8 +6,8 @@ import TypoDescription from "./Perfume-component/TypoDescription";
 import "./Perfume.css";
 export default function Perfume() {
   return (
-    <div className="container">
-      <div className="card-container bg-white rounded-md overflow-hidden flex flex-col  sm:flex-row">
+    <div className="perfume-container">
+      <div className="bg-white rounded-md overflow-hidden flex flex-col  sm:flex-row">
         <picture className="">
           <source
             srcSet={"/images/imageProductDesktop.jpg"}
