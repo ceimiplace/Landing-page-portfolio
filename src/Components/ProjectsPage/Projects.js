@@ -1,6 +1,7 @@
 import Section from "./Section";
 import React from "react";
 import ProjectComponent from "./ProjectComponent";
+import { Outlet } from "react-router-dom";
 
 export default function Projects() {
   return (
@@ -8,7 +9,7 @@ export default function Projects() {
       <Section title={"Projects made with Tailwind and React.js"}>
         <ProjectComponent
           src={"/images/perfume.jpg"}
-          to="/perfume"
+          to="perfume"
           description={
             "Responsive card component taken as a challenge from FrontMentor.com"
           }
