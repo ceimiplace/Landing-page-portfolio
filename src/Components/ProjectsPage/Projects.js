@@ -1,7 +1,6 @@
 import Section from "./Section";
 import React from "react";
 import ProjectComponent from "./ProjectComponent";
-import { Outlet } from "react-router-dom";
 
 export default function Projects() {
   return (
