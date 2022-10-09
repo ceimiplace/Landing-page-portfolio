@@ -14,46 +14,6 @@ export default function Projects() {
           }
           github={`https://github.com/ceimiplace/FrontEndMentor-Card-component`}
         />
-        <ProjectComponent
-          src={"/images/perfume.jpg"}
-          to="/perfume"
-          description={
-            "Responsive card component taken as a challenge from FrontMentor.com"
-          }
-          github={`https://github.com/ceimiplace/FrontEndMentor-Card-component`}
-        />
-        <ProjectComponent
-          src={"/images/perfume.jpg"}
-          to="/perfume"
-          description={
-            "Responsive card component taken as a challenge from FrontMentor.com"
-          }
-          github={`https://github.com/ceimiplace/FrontEndMentor-Card-component`}
-        />
-        <ProjectComponent
-          src={"/images/perfume.jpg"}
-          to="/perfume"
-          description={
-            "Responsive card component taken as a challenge from FrontMentor.com"
-          }
-          github={`https://github.com/ceimiplace/FrontEndMentor-Card-component`}
-        />
-        <ProjectComponent
-          src={"/images/perfume.jpg"}
-          to="/perfume"
-          description={
-            "Responsive card component taken as a challenge from FrontMentor.com"
-          }
-          github={`https://github.com/ceimiplace/FrontEndMentor-Card-component`}
-        />
-        <ProjectComponent
-          src={"/images/perfume.jpg"}
-          to="/perfume"
-          description={
-            "Responsive card component taken as a challenge from FrontMentor.com"
-          }
-          github={`https://github.com/ceimiplace/FrontEndMentor-Card-component`}
-        />
       </Section>
       <Section
         title={"Projects made with CSS and Vanilla JavaScript"}
