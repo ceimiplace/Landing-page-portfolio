@@ -9,7 +9,9 @@ function App() {
       <Navigation />
 
       <Main>
-        <Routes></Routes>
+        <Routes>
+          <Route path="/" element="Home" />
+        </Routes>
       </Main>
 
       <Footer />
