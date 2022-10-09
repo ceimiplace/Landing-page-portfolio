@@ -9,10 +9,10 @@ export default function ProjectComponent({
   return (
     <div
       to={to}
-      className="block w-80 h-80 text-center border-2 border-slate-300 flex flex-col "
+      className=" w-80 h-80 text-center border-2 border-slate-300 flex flex-col inline border-2 border-black"
     >
       <div className="p-2">
-        <img src={`${src}`} className="w-80" />
+        <img src={`${src}`} className="w-80 h-40" />
       </div>
       <div className="">{description}</div>
       <div>
