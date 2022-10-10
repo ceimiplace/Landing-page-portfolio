@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import SearchBar from "./UnsplashApi-components/SearchBar";
 import ItemsList from "./UnsplashApi-components/ItemsList";
 export default function UnsplashAPI() {
   const [images, setImages] = useState([]);
-  function whenUserSubmitsForm(term) {
+  const [term, setTerm] = useState("cats");
+  useEffect(() => {
     console.log(term);
     fetch(`https://api.unsplash.com/search/photos?query=${term}`, {
       method: "GET",
@@ -14,10 +15,10 @@ export default function UnsplashAPI() {
     })
       .then((resp) => resp.json())
       .then((dates) => setImages(dates.results));
-  }
+  }, [term]);
   return (
     <div className="grow w-4/6 flex flex-col  p-3  mx-auto">
-      <SearchBar submited={whenUserSubmitsForm} />
+      <SearchBar submited={setTerm} />
       <ItemsList images={images} />
     </div>
   );
