@@ -9,7 +9,7 @@ export default function Footer() {
       </div>
       <div>
         <a href="mailto:azamfiredenis@yahoo.com?subject=I have some work regarding web development">
-          <i class="fa-solid fa-at"></i> Email Me!
+          <i className="fa-solid fa-at"></i> Email Me!
         </a>
       </div>
     </div>

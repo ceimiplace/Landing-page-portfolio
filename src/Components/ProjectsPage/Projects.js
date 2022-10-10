@@ -14,6 +14,17 @@ export default function Projects() {
           }
           github={`https://github.com/ceimiplace/FrontEndMentor-Card-component`}
         />
+        <ProjectComponent
+          src={"/images/UnsplashAPI.jpg"}
+          to="UnsplashAPI"
+          description={
+            "Application that fetches images from Unsplash API based on user input and renders the results in mosonry layout."
+          }
+          github={`https://github.com/ceimiplace/FrontEndMentor-Card-component`}
+          note={
+            "On github the project is with class components,but on this website i refractored it with functional components"
+          }
+        />
       </Section>
       <Section
         title={"Projects made with CSS and Vanilla JavaScript"}

@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Main from "./Main";
 import Navigation from "./Navigation";
 import Home from "./Components/HomePage/Home";
+import UnsplashAPI from "./Components/Projects/UnsplashAPI";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="projects" element={<Projects />}></Route>
           <Route path="projects/perfume" element={<Perfume />} />
+          <Route path="projects/UnsplashAPI" element={<UnsplashAPI />} />
         </Routes>
       </Main>
 

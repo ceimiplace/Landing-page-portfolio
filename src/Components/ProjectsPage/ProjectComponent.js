@@ -12,15 +12,21 @@ export default function ProjectComponent({
       <div className="image-container">
         <img src={`${src}`} className=" " />
       </div>
-      <div className="description-container">{description}</div>
+      <div className="description-container ">{description}</div>
+      {note && <div className="text-xs text-default">*{note}</div>}
       <div className="links-container">
-        <a href={github} target="_blank">
+        <a
+          href={github}
+          target="_blank"
+          className="bg-gray-100 rounded border-black border-2 "
+        >
           View code on Github
         </a>
 
-        <Link to={to}>Click here to load project</Link>
+        <Link to={to} className="bg-gray-100 rounded border-black border-2">
+          Click here to load project
+        </Link>
       </div>
-      {note && <div>*{note}</div>}
     </div>
   );
 }
