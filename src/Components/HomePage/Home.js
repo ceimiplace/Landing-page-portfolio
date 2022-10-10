@@ -9,15 +9,19 @@ export default function Home() {
           className="profile-image-container"
         />
         <div className="introduction font-medium">
-          <h2 className="font-bold text-xl">Hello there,</h2>
-          <p>My name is Denis Azamfire and i'm a FrontEnd Developer.</p>
-          <p>
+          <h2 className="font-bold text-2xl text-center">Hello There,</h2>
+          <p className="py-2">
+            My name is Denis Azamfire and i'm a FrontEnd Developer.
+          </p>
+          <p className="py-2">
             I starting my journey learning HTML,CSS and Vanilla Javascript.
             After creating a number of projects with these tehnologies,i added
             Tailwind and React.js under my belt.
           </p>
-          <p>You can find these projects in the Projects Section.</p>
-          <p>
+          <p className="py-2">
+            You can find these projects in the Projects Section.
+          </p>
+          <p className="py-2">
             I created this portolio website as Single Page Application with
             React.js and React Router v6 and a mix of Tailwind and CSS.
           </p>
