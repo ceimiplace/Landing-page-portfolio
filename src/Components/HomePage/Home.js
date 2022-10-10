@@ -15,8 +15,8 @@ export default function Home() {
             I starting my journey learning HTML,CSS and Vanilla Javascript.
             After creating a number of projects with these tehnologies,i added
             Tailwind and React.js under my belt.
-            <p>You can find these projects in the Projects Section.</p>
           </p>
+          <p>You can find these projects in the Projects Section.</p>
           <p>
             I created this portolio website as Single Page Application with
             React.js and React Router v6 and a mix of Tailwind and CSS.
