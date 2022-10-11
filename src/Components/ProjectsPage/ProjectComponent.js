@@ -8,7 +8,7 @@ export default function ProjectComponent({
   github,
 }) {
   return (
-    <div to={to} className="card-container ">
+    <div className="card-container ">
       <div className="image-container">
         <img src={`${src}`} className=" " />
       </div>
@@ -23,9 +23,13 @@ export default function ProjectComponent({
           View code on Github
         </a>
 
-        <Link to={to} className="bg-gray-100 rounded border-black border-2">
+        <a
+          href={to}
+          target="_blank"
+          className="bg-gray-100 rounded border-black border-2"
+        >
           Click here to load project
-        </Link>
+        </a>
       </div>
     </div>
   );
