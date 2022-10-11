@@ -20,7 +20,7 @@ export default function Projects() {
           description={
             "Application that fetches images from Unsplash API based on user input and renders the results in mosonry layout."
           }
-          github={`https://github.com/ceimiplace/FrontEndMentor-Card-component`}
+          github={`https://github.com/ceimiplace/Search-app-Unsplash.com`}
         />
       </Section>
       <Section title={"Projects made with CSS and Vanilla JavaScript"}>
