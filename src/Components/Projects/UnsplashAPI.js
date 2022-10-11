@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import SearchBar from "./UnsplashApi-components/SearchBar";
 import ItemsList from "./UnsplashApi-components/ItemsList";
-import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom";
+
 export default function UnsplashAPI({ changenavi }) {
   const [images, setImages] = useState([]);
   const [term, setTerm] = useState("cats");
