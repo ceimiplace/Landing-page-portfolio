@@ -10,22 +10,9 @@ export default function UnsplashAPI({ changenavi }) {
   }
   const [images, setImages] = useState([]);
   const [term, setTerm] = useState("cats");
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-  useEffect(() => {
-    console.log(term);
-    fetch(`https://api.unsplash.com/search/photos?query=${term}&page=${id}`, {
-=======
   useEffect(() => {
     console.log(term);
     fetch(`https://api.unsplash.com/search/photos?query=${term}`, {
->>>>>>> parent of 0e19d72 (navigation page unsplash api)
-=======
-  useEffect(() => {
-    console.log(term);
-    fetch(`https://api.unsplash.com/search/photos?query=${term}`, {
->>>>>>> parent of 0e19d72 (navigation page unsplash api)
       method: "GET",
       headers: {
         "Content-type": "application/json",
@@ -33,43 +20,26 @@ export default function UnsplashAPI({ changenavi }) {
       },
     })
       .then((resp) => resp.json())
-<<<<<<< HEAD
-<<<<<<< HEAD
-      .then((dates) => {
-        console.log(dates);
-        setImages(dates.results);
-      });
-  }, [term, id]);
-
-=======
       .then((dates) => setImages(dates.results));
   }, [term]);
->>>>>>> parent of 0e19d72 (navigation page unsplash api)
-=======
-      .then((dates) => setImages(dates.results));
-  }, [term]);
->>>>>>> parent of 0e19d72 (navigation page unsplash api)
   return (
     <div className="grow w-4/6 flex flex-col  p-3  mx-auto">
-      <SearchBar submited={setTerm} />
+      <SearchBar submited={setTerm} initialTerm={term} />
       <ItemsList images={images} />
-<<<<<<< HEAD
-<<<<<<< HEAD
       <div className="flex justify-center gap-4">
-        <div className="border-2 border-black p-4 text-lg rounded">
+        <div
+          onClick={() => setPage((prev) => prev - 1)}
+          className="border-2 border-black p-4 text-lg rounded"
+        >
           Previous page
         </div>
         <div
-          onClick={() => changenavi(`projects/UnsplashAPI/${Number(id) + 1}`)}
+          onClick={() => setPage((prev) => prev + 1)}
           className="border-2 border-black p-4 text-lg rounded"
         >
           Next page
         </div>
       </div>
-=======
->>>>>>> parent of 0e19d72 (navigation page unsplash api)
-=======
->>>>>>> parent of 0e19d72 (navigation page unsplash api)
     </div>
   );
 }
