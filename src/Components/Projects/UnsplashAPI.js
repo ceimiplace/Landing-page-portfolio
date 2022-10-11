@@ -4,12 +4,25 @@ import ItemsList from "./UnsplashApi-components/ItemsList";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 export default function UnsplashAPI({ changenavi }) {
-  let { id } = useParams();
-  if (!id) {
-    id = 1;
-  }
   const [images, setImages] = useState([]);
   const [term, setTerm] = useState("cats");
+  const [page, setPage] = useState(1);
+  useEffect(() => {
+    console.log(term);
+    fetch(`https://api.unsplash.com/search/photos?query=${term}&page=${page}`, {
+      method: "GET",
+      headers: {
+        "Content-type": "application/json",
+        Authorization: "Client-ID TYMtIDr5pbkUTBDnWOfebqltBPGuNdvPoUVcZSvCqJA",
+      },
+    })
+      .then((resp) => resp.json())
+      .then((dates) => {
+        console.log(dates);
+        setImages(dates.results);
+      });
+  }, [term, page]);
+  console.log(page);
   useEffect(() => {
     console.log(term);
     fetch(`https://api.unsplash.com/search/photos?query=${term}`, {
