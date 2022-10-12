@@ -65,6 +65,14 @@ export default function Projects() {
           }
           github={`https://github.com/ceimiplace/Todo-list-with-Local-storage`}
         />
+        <ProjectComponent
+          src={"/images/FlexboxProj.png"}
+          to="https://flexbox-project-page.netlify.app/"
+          description={
+            "ToDo list application with local storage and the posSibility to remove items by one or all togheter."
+          }
+          github={`https://github.com/ceimiplace/website-proj-with-flexbox`}
+        />
       </Section>
     </div>
   );
