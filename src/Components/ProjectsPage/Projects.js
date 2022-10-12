@@ -22,6 +22,14 @@ export default function Projects() {
           }
           github={`https://github.com/ceimiplace/Search-app-Unsplash.com`}
         />
+        <ProjectComponent
+          src={"/images/ROBOPOSTS.png"}
+          to="https://blogs-posts.netlify.app/"
+          description={
+            "Single page application made with React.js,React Router v6 and Tailwind.Connected to the backend to Firebase ."
+          }
+          github={`https://github.com/ceimiplace/Blog-website`}
+        />
       </Section>
       <Section title={"Projects made with CSS and Vanilla JavaScript"}>
         <ProjectComponent
