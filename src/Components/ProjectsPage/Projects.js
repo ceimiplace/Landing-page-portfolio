@@ -57,6 +57,14 @@ export default function Projects() {
           }
           github={`https://github.com/ceimiplace/clock`}
         />
+        <ProjectComponent
+          src={"/images/TodoList.png"}
+          to="https://to-do-list-storage.netlify.app/"
+          description={
+            "ToDo list application with local storage and the posSibility to remove items by one or all togheter."
+          }
+          github={`https://github.com/ceimiplace/Todo-list-with-Local-storage`}
+        />
       </Section>
     </div>
   );
