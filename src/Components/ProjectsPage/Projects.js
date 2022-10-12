@@ -40,6 +40,23 @@ export default function Projects() {
           }
           github={`https://github.com/ceimiplace/Dad-jokes-api`}
         />
+
+        <ProjectComponent
+          src={"/images/CatchGame.png"}
+          to="https://click-catch-game.netlify.app//"
+          description={
+            "A click-catch game where the user needs to click the moving cube.Implemented 3 speeds,a pause button and a reset button."
+          }
+          github={`https://github.com/ceimiplace/Dad-jokes-api`}
+        />
+        <ProjectComponent
+          src={"/images/Clock.png"}
+          to="https://analog-clock-css-js.netlify.app/"
+          description={
+            "Analog clock with added sounds effects made with relative/absolute positioning and Javascript."
+          }
+          github={`https://github.com/ceimiplace/clock`}
+        />
       </Section>
     </div>
   );
