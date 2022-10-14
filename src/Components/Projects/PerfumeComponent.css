@@ -1,6 +1,6 @@
 .main-card-container {
   display: flex;
-
+  padding: 5px;
   background-color: bisque;
   align-items: center;
   justify-content: center;
