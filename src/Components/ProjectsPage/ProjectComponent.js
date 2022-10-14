@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
 import "./ProjectComponent.css";
+import LinkComponent from "./LinkComponent";
+import AtagComponent from "./AtagComponent";
 export default function ProjectComponent({
   src,
   description,
   note,
   to,
   github,
+  type,
 }) {
   return (
     <div className="card-container ">
@@ -22,14 +25,11 @@ export default function ProjectComponent({
         >
           View code on Github
         </a>
-
-        <a
-          href={to}
-          target="_blank"
-          className="bg-gray-100 rounded border-black border-2"
-        >
-          Click here to load project
-        </a>
+        {type === "Link" ? (
+          <LinkComponent to={to} />
+        ) : (
+          <AtagComponent to={to} />
+        )}
       </div>
     </div>
   );

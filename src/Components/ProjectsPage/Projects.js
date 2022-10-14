@@ -7,14 +7,6 @@ export default function Projects() {
     <div className="bg-slate-200 grow px-4">
       <Section title={"Projects made with Tailwind and React.js"}>
         <ProjectComponent
-          src={"/images/perfume.jpg"}
-          to="https://card-component-fronten-mentor.netlify.app/"
-          description={
-            "Responsive card component taken as a challenge from FrontMentor.com"
-          }
-          github={`https://github.com/ceimiplace/FrontEndMentor-Card-component`}
-        />
-        <ProjectComponent
           src={"/images/UnsplashAPI.jpg"}
           to="https://search-img-unsplash.netlify.app/"
           description={
@@ -70,6 +62,17 @@ export default function Projects() {
           to="https://flexbox-project-page.netlify.app/"
           description={"Responsive Website made with Flexbox"}
           github={`https://github.com/ceimiplace/website-proj-with-flexbox`}
+        />
+      </Section>
+      <Section title={"Components"}>
+        <ProjectComponent
+          src={"/images/perfume.jpg"}
+          to="perfume-component"
+          description={
+            "Responsive card component taken as a challenge from FrontMentor.com"
+          }
+          github={`https://github.com/ceimiplace/FrontEndMentor-Card-component`}
+          type={"Link"}
         />
       </Section>
     </div>
