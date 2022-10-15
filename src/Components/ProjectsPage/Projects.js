@@ -78,7 +78,7 @@ export default function Projects() {
           src={"/images/SplitscreenFlexbox.png"}
           to="SplitscreenFlexbox"
           description={
-            "Split screen presentation made with Vanilla Javascript DOM API and Flexbox"
+            "Split screen presentation made with Vanilla Javascript DOM API and Flexbox.Refractored into React Component and added Event listeners with useEffect after component mounts."
           }
           github={`https://github.com/ceimiplace/Split-page-proj`}
           type={"Link"}
