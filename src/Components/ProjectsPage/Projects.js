@@ -78,9 +78,9 @@ export default function Projects() {
           src={"/images/SplitscreenFlexbox.png"}
           to="SplitscreenFlexbox"
           description={
-            "Split screen presentation made with Vanilla Javascript DOM API and flexbox"
+            "Split screen presentation made with Vanilla Javascript DOM API and Flexbox"
           }
-          github={`---------tobe aded`}
+          github={`https://github.com/ceimiplace/Split-page-proj`}
           type={"Link"}
         />
       </Section>

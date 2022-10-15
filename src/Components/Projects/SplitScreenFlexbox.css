@@ -36,12 +36,12 @@
   position: relative;
 }
 
-h3 {
+.split-screen-container h3 {
   font-size: 50px;
   color: white;
 }
 
-p {
+.split-screen-container p {
   font-size: 20px;
   color: white;
   border: 2px solid white;
@@ -64,8 +64,8 @@ p {
   z-index: 1;
 }
 
-h3,
-p {
+.split-screen-container h3,
+.split-screen-container p {
   z-index: 3;
 }
 
@@ -73,6 +73,6 @@ p {
   z-index: 2;
 }
 
-p:hover {
+.split-screen-container p:hover {
   cursor: pointer;
 }
