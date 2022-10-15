@@ -7,6 +7,7 @@ import Main from "./Main";
 import Navigation from "./Navigation";
 import Home from "./Components/HomePage/Home";
 import PerfumeComponent from "./Components/Projects/PerfumeComponent";
+import SplitScreenFlexbox from "./Components/Projects/SplitScreenFlexbox";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
           <Route
             path="projects/perfume-component"
             element={<PerfumeComponent />}
+          />
+          <Route
+            path="projects/SplitscreenFlexbox"
+            element={<SplitScreenFlexbox />}
           />
         </Routes>
       </Main>

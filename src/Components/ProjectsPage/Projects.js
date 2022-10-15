@@ -74,6 +74,15 @@ export default function Projects() {
           github={`https://github.com/ceimiplace/FrontEndMentor-Card-component`}
           type={"Link"}
         />
+        <ProjectComponent
+          src={"/images/SplitscreenFlexbox.png"}
+          to="SplitscreenFlexbox"
+          description={
+            "Split screen presentation made with Vanilla Javascript DOM API and flexbox"
+          }
+          github={`---------tobe aded`}
+          type={"Link"}
+        />
       </Section>
     </div>
   );
