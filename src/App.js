@@ -26,7 +26,6 @@ function App() {
             path="projects/SplitscreenFlexbox"
             element={<SplitScreenFlexbox />}
           />
-          <Route path="*" element={<Home />} />
         </Routes>
       </Main>
 
