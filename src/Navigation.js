@@ -13,9 +13,6 @@ export default function Navigation() {
         <Link className="px-2 text-white" to="/projects">
           Projects
         </Link>
-        <Link className="px-2 text-white" to="/projects">
-          About
-        </Link>
       </div>
     </nav>
   );
