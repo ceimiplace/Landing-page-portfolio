@@ -9,11 +9,12 @@ export default function ProjectComponent({
   to,
   github,
   type,
+  alt,
 }) {
   return (
     <div className="card-container ">
       <div className="image-container">
-        <img src={`${src}`} className=" " />
+        <img src={`${src}`} className=" " alt="picture of project" />
       </div>
       <div className="description-container ">{description}</div>
       {note && <div className="text-xs text-default">*{note}</div>}

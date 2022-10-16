@@ -2,7 +2,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 export default function Home() {
   return (
-    <div className="grow  bg-blue-300 px-2">
+    <div className="grow  bg-blue-100 px-2">
       <div className="home-container">
         <img
           src="/images/profile-picture.jpg"
