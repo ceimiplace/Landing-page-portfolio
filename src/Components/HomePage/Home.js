@@ -11,10 +11,10 @@ export default function Home() {
         <div className="introduction font-medium">
           <h2 className="font-bold text-2xl text-center">Hello There,</h2>
           <p className="py-2">
-            My name is Denis Azamfire and i'm a FrontEnd Developer.
+            My name is Denis Azamfire and I'm a Software Developer.
           </p>
           <p className="py-2">
-            I starting my journey learning HTML,CSS and Vanilla Javascript.
+            I started my journey by learning HTML,CSS and Vanilla Javascript.
             After creating a number of projects with these tehnologies,i added
             Tailwind and React.js under my belt.
           </p>
@@ -22,7 +22,7 @@ export default function Home() {
             You can find these projects in the Projects Section.
           </p>
           <p className="py-2">
-            I created this portolio website as Single Page Application with
+            I created this portfolio website as a Single Page Application with
             React.js and React Router v6 and a mix of Tailwind and CSS.
           </p>
         </div>
