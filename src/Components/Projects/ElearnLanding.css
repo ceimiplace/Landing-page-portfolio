@@ -1,0 +1,11 @@
+.elearn-container {
+  --header-text-color: #13183f;
+  --text-color: #83869a;
+  --light-pink-color: #ffa7c3;
+  --intense-pink-color: #f74780;
+  --gray: #83869a;
+  --pink-linear-gradient: linear-gradient(#f02aa6 - #ff6f48);
+  --purple-linear-gradient: linear-gradient(#4851ff - #f02aa6);
+  flex-grow: 1;
+  background-color: red;
+}
