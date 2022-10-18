@@ -33,19 +33,35 @@
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 56px;
   line-height: 70px;
+  font-weight: 800;
 }
 .header-l {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 40px;
   line-height: 51px;
+  font-weight: 800;
 }
 .header-m {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 32px;
   line-height: 40px;
+  font-weight: 800;
 }
 .header-s {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
+  font-weight: 800;
+}
+.bodyM {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.bodyS {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 700;
 }
