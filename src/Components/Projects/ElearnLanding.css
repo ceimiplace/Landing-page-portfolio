@@ -2,6 +2,7 @@
 
 .elearn-container {
   flex-grow: 1;
+  overflow: hidden;
 }
 .white-color-text {
   color: white;
@@ -64,4 +65,25 @@
   font-size: 16px;
   line-height: 28px;
   font-weight: 700;
+}
+.cover-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .cover-container {
+    flex-direction: row;
+    position: relative;
+  }
+  .hero-image {
+    width: 640px;
+    height: 640px;
+    position: absolute;
+    right: -280px;
+    top: -150px;
+  }
+  .cover-text-container {
+    flex-basis: 400px;
+  }
 }
