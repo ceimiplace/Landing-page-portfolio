@@ -4,11 +4,14 @@ export default function ElearnLanding() {
     <div className="elearn-container">
       <div className="">
         <p className="">skilled</p>
-        <Button className={"dark-color"} text={"Get Started"}></Button>
+        <Button
+          className={"dark-color-background white-color-text"}
+          text={"Get Started"}
+        ></Button>
       </div>
     </div>
   );
 }
 function Button({ className, text }) {
-  return <button className={className}>{text}</button>;
+  return <button className={`${className} p-4 rounded-full`}>{text}</button>;
 }

@@ -3,11 +3,15 @@
 .elearn-container {
   flex-grow: 1;
 }
-.white-color {
+.white-color-text {
   color: white;
 }
-.dark-color {
+
+.dark-color-text {
   color: #13183f;
+}
+.dark-color-background {
+  background-color: #13183f;
 }
 .grey-color {
   color: #83869a;
