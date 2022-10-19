@@ -4,7 +4,7 @@
   flex-grow: 1;
   overflow: hidden;
   height: 3000px;
-  --headerXl :font-family: "Plus Jakarta Sans", sans-serif,  font-size: 56px,  line-height: 70px, font-weight: 800;
+  background-color: #f2f2f2;
 }
 .white-color-text {
   color: white;
@@ -61,17 +61,35 @@
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
+  color: #83869a;
 }
 .bodyS {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   line-height: 28px;
   font-weight: 700;
+  color: #83869a;
 }
 .cover-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.card-component-elearn {
+  height: 340px;
+  width: 340px;
+  position: relative;
+  padding: 60px 30px 40px;
+
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.card-component-elearn img {
+  position: absolute;
+  top: -20px;
 }
 @media screen and (min-width: 768px) {
   .cover-container {

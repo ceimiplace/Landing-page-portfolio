@@ -1,3 +1,4 @@
+import { Children } from "react";
 import "./ElearnLanding.css";
 export default function ElearnLanding() {
   return (
@@ -37,6 +38,15 @@ export default function ElearnLanding() {
           </picture>
         </div>
       </div>
+      <Main>
+        <CardComponent
+          svgSrc="./images/elearning-landing-page/icon-animation.svg"
+          title={"Animation"}
+          body={
+            "Learn the latest animation techniques to create stunning motion design and captivate your audience."
+          }
+        />
+      </Main>
     </div>
   );
 }
@@ -44,4 +54,19 @@ function Button({ className, text }) {
   return (
     <button className={`${className} p-4 rounded-full w-40`}>{text}</button>
   );
+}
+function CardComponent({ svgSrc, title, body }) {
+  return (
+    <div className="card-component-elearn">
+      <img src={`${svgSrc}`} />
+      <p className="header-s">{title}</p>
+      <p className="bodyS">{body}</p>
+      <a href="#" className="text-xl font-bold intense-pink-color">
+        Get Started{" "}
+      </a>
+    </div>
+  );
+}
+function Main({ children }) {
+  return <main className="main-container">{children}</main>;
 }
