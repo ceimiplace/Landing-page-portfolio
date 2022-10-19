@@ -2,7 +2,7 @@ import "./ElearnLanding.css";
 export default function ElearnLanding() {
   return (
     <div className="elearn-container my-4">
-      <div className="flex justify-between items-baseline px-4">
+      <div className="flex justify-between items-baseline">
         <p className="header-s">skilled</p>
         <Button
           className={"dark-color-background white-color-text   bodyS"}
@@ -28,6 +28,10 @@ export default function ElearnLanding() {
             <source
               srcSet="./images/elearning-landing-page/image-hero-tablet.png"
               media="(min-width:768px)"
+            />
+            <srouce
+              srcSet="./images/elearning-landing-page/image-hero-desktop.png"
+              media="(min-width:1440px)"
             />
             <img src="./images/elearning-landing-page/image-hero-mobile.png" />
           </picture>

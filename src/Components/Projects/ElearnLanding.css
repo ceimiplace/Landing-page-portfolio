@@ -3,6 +3,8 @@
 .elearn-container {
   flex-grow: 1;
   overflow: hidden;
+  height: 3000px;
+  --headerXl :font-family: "Plus Jakarta Sans", sans-serif,  font-size: 56px,  line-height: 70px, font-weight: 800;
 }
 .white-color-text {
   color: white;
@@ -75,15 +77,39 @@
   .cover-container {
     flex-direction: row;
     position: relative;
+    margin-top: 150px;
   }
   .hero-image {
-    width: 640px;
-    height: 640px;
     position: absolute;
-    right: -280px;
-    top: -150px;
+    right: -330px;
+    top: -250px;
   }
   .cover-text-container {
     flex-basis: 400px;
+  }
+  .elearn-container {
+    padding-inline: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .cover-text-container {
+    flex-basis: 460px;
+  }
+  .cover-text-container p:first-child {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: 800;
+  }
+  .hero-image img {
+    width: 900px;
+    height: 900px;
+  }
+  .hero-image {
+    top: -290px;
+    right: -390px;
+  }
+  .elearn-container {
+    padding-inline: 150px;
   }
 }
