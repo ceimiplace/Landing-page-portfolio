@@ -38,7 +38,7 @@ export default function ElearnLanding() {
           </picture>
         </div>
       </div>
-      <Main>
+      <MainElan>
         <CardComponent
           svgSrc="./images/elearning-landing-page/icon-animation.svg"
           title={"Animation"}
@@ -46,7 +46,21 @@ export default function ElearnLanding() {
             "Learn the latest animation techniques to create stunning motion design and captivate your audience."
           }
         />
-      </Main>
+        <CardComponent
+          svgSrc="./images/elearning-landing-page/icon-animation.svg"
+          title={"Animation"}
+          body={
+            "Learn the latest animation techniques to create stunning motion design and captivate your audience."
+          }
+        />
+        <CardComponent
+          svgSrc="./images/elearning-landing-page/icon-animation.svg"
+          title={"Animation"}
+          body={
+            "Learn the latest animation techniques to create stunning motion design and captivate your audience."
+          }
+        />
+      </MainElan>
     </div>
   );
 }
@@ -67,6 +81,6 @@ function CardComponent({ svgSrc, title, body }) {
     </div>
   );
 }
-function Main({ children }) {
-  return <main className="main-container">{children}</main>;
+function MainElan({ children }) {
+  return <main className="main-container-elan">{children}</main>;
 }
