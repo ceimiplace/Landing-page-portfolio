@@ -20,6 +20,9 @@
 .grey-color {
   color: #83869a;
 }
+.grey-color-background {
+  color: #83869a;
+}
 
 .light-pink-color {
   color: #ffa7c3;
@@ -108,6 +111,17 @@
 .footer-elan {
   padding-block: 30px;
   padding-inline: 30px;
+}
+.top-right-button {
+  z-index: 1;
+}
+.bottom-right-button:active {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
 }
 @media screen and (min-width: 768px) {
   .cover-container {

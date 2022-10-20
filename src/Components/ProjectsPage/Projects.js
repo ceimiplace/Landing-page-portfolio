@@ -10,7 +10,7 @@ export default function Projects() {
           src={"/images/ElearnPage.png"}
           to="elearn-Landing"
           description={"Responsive mobile-first WebPage"}
-          github={`https://github.com/ceimiplace/Search-app-Unsplash.com`}
+          github={`https://github.com/ceimiplace/Landing-page-portfolio/blob/main/src/Components/Projects/ElearnLanding.js`}
           type="Link"
         />
         <ProjectComponent

@@ -7,7 +7,9 @@ export default function ElearnLanding() {
         <Section>
           <p className="header-s">skilled</p>
           <Button
-            className={"dark-color-background white-color-text  bodyS"}
+            className={
+              "bg-[#13183f] top-right-button white-color-text active:bg-[#666CA3] bodyS "
+            }
             text={"Get Started"}
           />
         </Section>
@@ -21,7 +23,7 @@ export default function ElearnLanding() {
               you the knowledge you need to live the life you want.
             </p>
             <Button
-              className={`white-color-text pink-linear-gradient my-4`}
+              className={`white-color-text bg-gradient-to-b from-[#f02aa6] active:from-[#f02aa6]/[0.6] to-[#ff6f48] active:to-[#ff6f48]/[0.6] " bodyS my-4`}
               text={"Get Started"}
             />
           </div>
@@ -83,7 +85,9 @@ export default function ElearnLanding() {
       <Section classes={"dark-color-background footer-elan"}>
         <p className="header-s white-color-text">skilled</p>
         <Button
-          className={"pink-linear-gradient white-color-text  bodyS"}
+          className={
+            " bottom-right-button bg-gradient-to-b from-[#4851FF]  to-[#f02aa6]   white-color-text  bodyS"
+          }
           text={"Get Started"}
         />
       </Section>
@@ -101,9 +105,7 @@ function CardComponent({ svgSrc, title, body }) {
       <img src={`${svgSrc}`} />
       <p className="header-s">{title}</p>
       <p className="bodyM grey-color">{body}</p>
-      <a href="#" className="text-xl font-bold intense-pink-color">
-        Get Started{" "}
-      </a>
+      <div className="bodyS intense-pink-color cursor-pointer">Get Started</div>
     </div>
   );
 }
