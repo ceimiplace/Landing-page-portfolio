@@ -24,6 +24,9 @@
 .light-pink-color {
   color: #ffa7c3;
 }
+.light-pink-background {
+  color: #ffa7c3;
+}
 .intense-pink-color {
   color: #f74780;
 }
@@ -94,14 +97,21 @@
 }
 .main-container-elan {
   display: grid;
-  gap: 10px;
+  column-gap: 30px;
+  row-gap: 60px;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+}
+.unique-card {
+  padding-inline: 30px;
+  padding-block: 40px;
+  border-radius: 10px;
 }
 @media screen and (min-width: 768px) {
   .cover-container {
     flex-direction: row;
     position: relative;
     margin-top: 150px;
+    margin-bottom: 200px;
   }
   .hero-image {
     position: absolute;
@@ -114,9 +124,17 @@
   .elearn-container {
     padding-inline: 40px;
   }
+  .unique-card {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 800;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .cover-container {
+    margin-bottom: 250px;
+  }
   .cover-text-container {
     flex-basis: 460px;
   }

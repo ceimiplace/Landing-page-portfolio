@@ -3,13 +3,7 @@ import "./ElearnLanding.css";
 export default function ElearnLanding() {
   return (
     <div className="elearn-container my-4">
-      <div className="flex justify-between items-baseline">
-        <p className="header-s">skilled</p>
-        <Button
-          className={"dark-color-background white-color-text   bodyS"}
-          text={"Get Started"}
-        />
-      </div>
+      <Section />
       <div className="cover-container">
         <div className="cover-text-container">
           <p className="header-l dark-color-text my-4 ">
@@ -39,6 +33,9 @@ export default function ElearnLanding() {
         </div>
       </div>
       <MainElan>
+        <p className="white-color-text pink-linear-gradient header-s  unique-card">
+          Check out our most popular courses!
+        </p>
         <CardComponent
           svgSrc="./images/elearning-landing-page/icon-animation.svg"
           title={"Animation"}
@@ -47,20 +44,35 @@ export default function ElearnLanding() {
           }
         />
         <CardComponent
-          svgSrc="./images/elearning-landing-page/icon-animation.svg"
-          title={"Animation"}
+          svgSrc="./images/elearning-landing-page/icon-design.svg"
+          title={"Design"}
           body={
-            "Learn the latest animation techniques to create stunning motion design and captivate your audience."
+            "Create beautiful, usable interfaces to help shape the future of how the web looks."
           }
         />
         <CardComponent
-          svgSrc="./images/elearning-landing-page/icon-animation.svg"
-          title={"Animation"}
+          svgSrc="./images/elearning-landing-page/icon-photography.svg"
+          title={"Photography"}
           body={
-            "Learn the latest animation techniques to create stunning motion design and captivate your audience."
+            "Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos."
+          }
+        />
+        <CardComponent
+          svgSrc="./images/elearning-landing-page/icon-crypto.svg"
+          title={"Crypto"}
+          body={
+            "All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course."
+          }
+        />
+        <CardComponent
+          svgSrc="./images/elearning-landing-page/icon-crypto.svg"
+          title={"Business"}
+          body={
+            "A step-by-step playbook to help you start, scale, and sustain your business without outside investment."
           }
         />
       </MainElan>
+      <Section />
     </div>
   );
 }
@@ -83,4 +95,15 @@ function CardComponent({ svgSrc, title, body }) {
 }
 function MainElan({ children }) {
   return <main className="main-container-elan">{children}</main>;
+}
+function Section() {
+  return (
+    <div className="flex justify-between items-baseline">
+      <p className="header-s">skilled</p>
+      <Button
+        className={"dark-color-background white-color-text   bodyS"}
+        text={"Get Started"}
+      />
+    </div>
+  );
 }
