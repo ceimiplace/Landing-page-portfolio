@@ -7,6 +7,13 @@ export default function Projects() {
     <div className="bg-slate-200 grow px-4">
       <Section title={"Projects made with Tailwind and React.js"}>
         <ProjectComponent
+          src={"/images/ElearnPage.png"}
+          to="elearn-Landing"
+          description={"Responsive mobile-first WebPage"}
+          github={`https://github.com/ceimiplace/Search-app-Unsplash.com`}
+          type="Link"
+        />
+        <ProjectComponent
           src={"/images/UnsplashAPI.jpg"}
           to="https://search-img-unsplash.netlify.app/"
           description={
@@ -60,7 +67,7 @@ export default function Projects() {
         <ProjectComponent
           src={"/images/FlexboxProj.png"}
           to="https://flexbox-project-page.netlify.app/"
-          description={"Responsive Website made with Flexbox"}
+          description={"Responsive Website Project"}
           github={`https://github.com/ceimiplace/website-proj-with-flexbox`}
         />
       </Section>

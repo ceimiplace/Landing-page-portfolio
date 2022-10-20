@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
 
 .elearn-container {
-  flex-grow: 1;
   overflow: hidden;
-  height: 3000px;
+  padding-top: 20px;
+  padding-bottom: 80px;
   background-color: #f2f2f2;
   padding-inline: 15px;
 }
@@ -72,7 +72,6 @@
   font-size: 16px;
   line-height: 28px;
   font-weight: 700;
-  color: #83869a;
 }
 .cover-container {
   display: flex;
@@ -106,6 +105,10 @@
   padding-block: 40px;
   border-radius: 10px;
 }
+.footer-elan {
+  padding-block: 30px;
+  padding-inline: 30px;
+}
 @media screen and (min-width: 768px) {
   .cover-container {
     flex-direction: row;
@@ -128,6 +131,9 @@
     font-size: 32px;
     line-height: 40px;
     font-weight: 800;
+  }
+  .footer-elan {
+    padding-inline: 40px;
   }
 }
 
@@ -153,6 +159,9 @@
     right: -390px;
   }
   .elearn-container {
+    padding-inline: 150px;
+  }
+  .footer-elan {
     padding-inline: 150px;
   }
 }
