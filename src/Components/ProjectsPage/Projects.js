@@ -8,10 +8,9 @@ export default function Projects() {
       <Section title={"Projects made with Tailwind and React.js"}>
         <ProjectComponent
           src={"/images/ElearnPage.png"}
-          to="elearn-Landing"
+          to="https://elearn-page.netlify.app/"
           description={"Responsive mobile-first WebPage"}
-          github={`https://github.com/ceimiplace/Landing-page-portfolio/blob/main/src/Components/Projects/ElearnLanding.js`}
-          type="Link"
+          github={`https://github.com/ceimiplace/elearning-page`}
         />
         <ProjectComponent
           src={"/images/UnsplashAPI.jpg"}
