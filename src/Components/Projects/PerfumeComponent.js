@@ -23,7 +23,11 @@ export default function PerfumeComponent() {
               Polge, Perfumer-Creator for the House of CHANEL."
           />
           <Prices newPrice={"$149.99"} oldPrice={"$169.99"} />
-          <Button text={"Add to Cart"} icon={"cart-shopping"} />
+          <Button
+            text={"Add to Cart"}
+            icon={"cart-shopping"}
+            specificClass={"buy-btn"}
+          />
         </div>
       </div>
     </div>
@@ -40,9 +44,11 @@ function Prices({ newPrice, oldPrice }) {
     </div>
   );
 }
-function Button({ icon, text }) {
+function Button({ icon, text, specificClass }) {
   return (
-    <button className="block text-center text-sm bg-emerald-600 text-white w-full rounded-md p-2">
+    <button
+      className={`block ${specificClass} text-center text-sm bg-emerald-600 text-white w-full rounded-md p-2`}
+    >
       <i className={`fa-solid fa-${icon}`}></i>
 
       <span className="ml-2">{text}</span>

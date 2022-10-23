@@ -8,7 +8,6 @@ import Navigation from "./Navigation";
 import Home from "./Components/HomePage/Home";
 import PerfumeComponent from "./Components/Projects/PerfumeComponent";
 import SplitScreenFlexbox from "./Components/Projects/SplitScreenFlexbox";
-import ElearnLanding from "./Components/Projects/ElearnLanding";
 
 function App() {
   return (
@@ -27,7 +26,6 @@ function App() {
             path="projects/SplitscreenFlexbox"
             element={<SplitScreenFlexbox />}
           />
-          <Route path="projects/elearn-Landing" element={<ElearnLanding />} />
         </Routes>
       </Main>
 

@@ -5,3 +5,6 @@
   align-items: center;
   justify-content: center;
 }
+.buy-btn:hover {
+  transform: translateY(20px);
+}
