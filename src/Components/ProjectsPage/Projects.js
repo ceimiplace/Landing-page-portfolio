@@ -73,12 +73,11 @@ export default function Projects() {
       <Section title={"Components"}>
         <ProjectComponent
           src={"/images/perfume.jpg"}
-          to="perfume-component"
+          to="https://card-component-fronten-mentor.netlify.app/"
           description={
             "Responsive card component taken as a challenge from FrontMentor.com"
           }
           github={`https://github.com/ceimiplace/FrontEndMentor-Card-component`}
-          type={"Link"}
         />
         <ProjectComponent
           src={"/images/SplitscreenFlexbox.png"}
