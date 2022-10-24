@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import Main from "./Main";
 import Navigation from "./Navigation";
 import Home from "./Components/HomePage/Home";
-import PerfumeComponent from "./Components/Projects/PerfumeComponent";
+
 import SplitScreenFlexbox from "./Components/Projects/SplitScreenFlexbox";
 
 function App() {
