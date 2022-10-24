@@ -81,12 +81,11 @@ export default function Projects() {
         />
         <ProjectComponent
           src={"/images/SplitscreenFlexbox.png"}
-          to="SplitscreenFlexbox"
+          to="https://split-screen-proj.netlify.app/"
           description={
             "Split screen presentation made with Vanilla Javascript DOM API and Flexbox.Refractored into React Component and added Event listeners with useEffect after component mounts."
           }
           github={`https://github.com/ceimiplace/Split-page-proj`}
-          type={"Link"}
         />
         <ProjectComponent
           src={"/images/expanding-cards.png"}
