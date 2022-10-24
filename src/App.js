@@ -11,7 +11,7 @@ import SplitScreenFlexbox from "./Components/Projects/SplitScreenFlexbox";
 
 function App() {
   return (
-    <div className=" mx-auto bg-[#0D111C] bgflex flex-col ">
+    <div className=" mx-auto bg-[#0D111C] bgflex flex-col main-app ">
       <Navigation />
 
       <Home />

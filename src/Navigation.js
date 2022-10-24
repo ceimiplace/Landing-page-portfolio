@@ -10,12 +10,12 @@ export default function Navigation() {
       ></img>
 
       <div className="my-4 text-md  flex gap-4">
-        <Link className="px-2 text-white" to="/">
+        <a className="px-2 text-white" href="#home">
           Home
-        </Link>
-        <Link className="px-2 text-white" to="/projects">
+        </a>
+        <a href="#projects" className="px-2 text-white" to="/projects">
           Projects
-        </Link>
+        </a>
       </div>
     </nav>
   );

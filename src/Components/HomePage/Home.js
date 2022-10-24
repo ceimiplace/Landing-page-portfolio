@@ -34,7 +34,7 @@ export default function Home() {
     setInterval(animateWriting, 2100);
   }, []);
   return (
-    <div className="home-container">
+    <div className="home-container" id="home">
       <p className="text-hero">
         <span className="text-hero-code">&lt;Code</span>
         <span className="animation-writing">
