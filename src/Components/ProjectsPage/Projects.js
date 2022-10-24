@@ -95,6 +95,14 @@ export default function Projects() {
           description={"Expanding cards"}
           github={`https://github.com/ceimiplace/Expanding-Cards`}
         />
+        <ProjectComponent
+          src={"/images/Form-signup.png"}
+          to="https://form-componennt.netlify.app/"
+          description={
+            "Form Sign-up component with added Javavascript Validation and sprinkled animations"
+          }
+          github={`https://github.com/ceimiplace/Form-component-vanilla-JS`}
+        />
       </Section>
     </div>
   );
