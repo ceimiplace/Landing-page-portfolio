@@ -36,12 +36,13 @@ export default function Home() {
   return (
     <div className="home-container">
       <p className="text-hero">
-        <span className="text-hero-code">Code</span>
+        <span className="text-hero-code">&lt;Code</span>
         <span className="animation-writing">
           <span className="puncte puncte-one">.</span>
           <span className="puncte puncte-two">.</span>
           <span className="puncte puncte-three">.</span>
         </span>
+        <span className="text-hero-code">/&gt;</span>
       </p>
     </div>
   );
