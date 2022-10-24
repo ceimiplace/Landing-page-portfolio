@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 2px solid goldenrod;
 }
 .text-hero {
   font-size: clamp(60px, 17vw, 600px);

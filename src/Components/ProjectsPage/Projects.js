@@ -4,7 +4,7 @@ import ProjectComponent from "./ProjectComponent";
 
 export default function Projects() {
   return (
-    <div className="bg-slate-200 grow px-4">
+    <div className=" grow px-4">
       <Section title={"Projects made with Tailwind and React.js"}>
         <ProjectComponent
           src={"/images/ElearnPage.png"}
