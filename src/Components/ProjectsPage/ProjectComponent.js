@@ -12,7 +12,7 @@ export default function ProjectComponent({
   alt,
 }) {
   return (
-    <div className="card-container ">
+    <div className="card-container">
       <div className="image-container">
         <img src={`${src}`} className=" " alt="picture of project" />
       </div>

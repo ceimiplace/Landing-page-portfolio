@@ -89,6 +89,12 @@ export default function Projects() {
           github={`https://github.com/ceimiplace/Split-page-proj`}
           type={"Link"}
         />
+        <ProjectComponent
+          src={"/images/expanding-cards.png"}
+          to="https://expands-cards.netlify.app/"
+          description={"Expanding cards"}
+          github={`https://github.com/ceimiplace/Expanding-Cards`}
+        />
       </Section>
     </div>
   );
