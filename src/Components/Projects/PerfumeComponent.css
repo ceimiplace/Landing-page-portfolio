@@ -5,6 +5,10 @@
   align-items: center;
   justify-content: center;
 }
+.buy-btn {
+  transition: all 0.2s;
+  margin-top: 20px;
+}
 .buy-btn:hover {
-  transform: translateY(20px);
+  transform: translateY(-10px);
 }
