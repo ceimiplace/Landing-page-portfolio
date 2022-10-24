@@ -11,23 +11,11 @@ import SplitScreenFlexbox from "./Components/Projects/SplitScreenFlexbox";
 
 function App() {
   return (
-    <div className="min-h-screen mx-auto max-w-screen-2xl flex flex-col  px-4">
+    <div className="min-h-screen mx-auto  flex flex-col ">
       <Navigation />
 
-      <Main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="projects" element={<Projects />}></Route>
-          <Route
-            path="projects/perfume-component"
-            element={<PerfumeComponent />}
-          />
-          <Route
-            path="projects/SplitscreenFlexbox"
-            element={<SplitScreenFlexbox />}
-          />
-        </Routes>
-      </Main>
+      <Home />
+      <Projects />
 
       <Footer />
     </div>
