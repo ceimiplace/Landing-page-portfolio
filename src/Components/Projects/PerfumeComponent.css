@@ -10,5 +10,10 @@
   margin-top: 20px;
 }
 .buy-btn:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.402);
   transform: translateY(-10px);
+}
+.buy-btn:active {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.402);
+  transform: translateY(-5px);
 }
