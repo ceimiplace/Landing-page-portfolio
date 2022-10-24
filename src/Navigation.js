@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export default function Navigation() {
   return (
     <nav className="fixed w-full top-0 left-0 flex flex-col justify-between items-center px-10 bg-[#0D111C] sm:flex-row">

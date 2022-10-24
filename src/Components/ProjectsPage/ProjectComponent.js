@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import "./ProjectComponent.css";
-import LinkComponent from "./LinkComponent";
-import AtagComponent from "./AtagComponent";
+
 export default function ProjectComponent({
   src,
   description,
@@ -16,7 +15,7 @@ export default function ProjectComponent({
       <div className="image-container">
         <img src={`${src}`} className=" " alt="picture of project" />
       </div>
-      <div className="description-container  text-[#DAA520]">{description}</div>
+      <div className="description-container  text-white">{description}</div>
       {note && <div className="text-xs text-medium">*{note}</div>}
       <div className="links-container">
         <a
@@ -24,13 +23,11 @@ export default function ProjectComponent({
           target="_blank"
           className="bg-white text-black rounded border-black border-2 "
         >
-          View code on Github
+          View code on Github <i class="fa-brands fa-github"></i>
         </a>
-        {type === "Link" ? (
-          <LinkComponent to={to} />
-        ) : (
-          <AtagComponent to={to} />
-        )}
+        <a href={to} target="_blank" className="">
+          Click here to load project
+        </a>
       </div>
     </div>
   );
