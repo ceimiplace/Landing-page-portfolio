@@ -101,6 +101,12 @@ export default function Projects() {
           }
           github={`https://github.com/ceimiplace/Form-component-vanilla-JS`}
         />
+        <ProjectComponent
+          src={"/images/Chameleon-ui.png"}
+          to="https://chameleons-ui.netlify.app/"
+          description={"Webpage component created for a friend"}
+          github={`https://github.com/ceimiplace/Interactive-Ui-Chameleon-Upwork`}
+        />
       </Section>
     </div>
   );
