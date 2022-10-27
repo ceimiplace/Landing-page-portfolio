@@ -42,37 +42,31 @@ export default function Projects() {
         <ProjectComponent
           src={"/images/CatchGame.png"}
           to="https://click-catch-game.netlify.app//"
-          description={
-            "A click-catch game where the user needs to click the moving cube.Implemented 3 speeds,a pause button and a reset button."
-          }
+          description={"A click-catch game with 3 speeds and 2 control buttons"}
           github={`https://github.com/ceimiplace/Dad-jokes-api`}
         />
         <ProjectComponent
           src={"/images/Clock.png"}
           to="https://analog-clock-css-js.netlify.app/"
-          description={
-            "Analog clock with added sounds effects made with relative/absolute positioning and Javascript."
-          }
+          description={"Analog clock with added sounds effects."}
           github={`https://github.com/ceimiplace/clock`}
         />
         <ProjectComponent
           src={"/images/TodoList.png"}
           to="https://to-do-list-storage.netlify.app/"
-          description={
-            "ToDo list application with local storage and the posSibility to remove items by one or all togheter."
-          }
+          description={"To-Do list application with local storage"}
           github={`https://github.com/ceimiplace/Todo-list-with-Local-storage`}
         />
         <ProjectComponent
           src={"/images/FlexboxProj.png"}
           to="https://flexbox-project-page.netlify.app/"
-          description={"Responsive Website Project"}
+          description={"Responsive Website Page"}
           github={`https://github.com/ceimiplace/website-proj-with-flexbox`}
         />
         <ProjectComponent
           src={"/images/Key-concert.png"}
           to="https://key-concert.netlify.app/"
-          description={"Interactive   Key Concert Webpage"}
+          description={"Interactive Key Concert Webpage"}
           github={`https://github.com/ceimiplace/Drum-kit`}
         />
       </Section>
@@ -80,17 +74,13 @@ export default function Projects() {
         <ProjectComponent
           src={"/images/perfume.jpg"}
           to="https://card-component-fronten-mentor.netlify.app/"
-          description={
-            "Responsive card component taken as a challenge from FrontMentor.com"
-          }
+          description={"Responsive card component made with <picture> tag"}
           github={`https://github.com/ceimiplace/FrontEndMentor-Card-component`}
         />
         <ProjectComponent
           src={"/images/SplitscreenFlexbox.png"}
           to="https://split-screen-proj.netlify.app/"
-          description={
-            "Split screen presentation made with Vanilla Javascript DOM API and Flexbox.Refractored into React Component and added Event listeners with useEffect after component mounts."
-          }
+          description={"Split screen presentation"}
           github={`https://github.com/ceimiplace/Split-page-proj`}
         />
         <ProjectComponent
@@ -102,9 +92,7 @@ export default function Projects() {
         <ProjectComponent
           src={"/images/Form-signup.png"}
           to="https://form-componennt.netlify.app/"
-          description={
-            "Form Sign-up component with added Javavascript Validation and sprinkled animations"
-          }
+          description={"Sign-up form component with JS validation"}
           github={`https://github.com/ceimiplace/Form-component-vanilla-JS`}
         />
         <ProjectComponent
