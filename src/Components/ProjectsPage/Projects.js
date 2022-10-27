@@ -15,16 +15,14 @@ export default function Projects() {
         <ProjectComponent
           src={"/images/UnsplashAPI.jpg"}
           to="https://search-img-unsplash.netlify.app/"
-          description={
-            "Application that fetches images from Unsplash API based on user input and renders the results in mosonry layout."
-          }
+          description={"Image gallery from Unsplash API  in mosonry layout ."}
           github={`https://github.com/ceimiplace/Search-app-Unsplash.com`}
         />
         <ProjectComponent
           src={"/images/ROBOPOSTS.png"}
           to="https://blogs-posts.netlify.app/"
           description={
-            "Single page application made with React.js,React Router v6 and Tailwind.Connected to the backend to Firebase ."
+            "Single page application connected to the backend to Firebase ."
           }
           github={`https://github.com/ceimiplace/Blog-website`}
         />
@@ -33,9 +31,7 @@ export default function Projects() {
         <ProjectComponent
           src={"/images/randomJoke.jpg"}
           to="https://dadjokeys.netlify.app/"
-          description={
-            "Application that fetches random dad jokes either as text,image or by specific user input and renders them."
-          }
+          description={"Random Dad Joke Generator connected to a public API"}
           github={`https://github.com/ceimiplace/Dad-jokes-api`}
         />
 

@@ -15,7 +15,7 @@ export default function ProjectComponent({
       <div className="image-container">
         <img src={`${src}`} className=" " alt="picture of project" />
       </div>
-      <div className="description-container  text-white">{description}</div>
+      <div className="description-container text-white  ">{description}</div>
       {note && <div className="text-xs text-medium">*{note}</div>}
       <div className="links-container">
         <a
