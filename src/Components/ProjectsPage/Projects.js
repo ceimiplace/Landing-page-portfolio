@@ -69,6 +69,12 @@ export default function Projects() {
           description={"Responsive Website Project"}
           github={`https://github.com/ceimiplace/website-proj-with-flexbox`}
         />
+        <ProjectComponent
+          src={"/images/Key-concert.png"}
+          to="https://key-concert.netlify.app/"
+          description={"Interactive   Key Concert Webpage"}
+          github={`https://github.com/ceimiplace/Drum-kit`}
+        />
       </Section>
       <Section title={"Components"}>
         <ProjectComponent
