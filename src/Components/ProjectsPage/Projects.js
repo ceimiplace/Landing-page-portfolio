@@ -5,12 +5,24 @@ import ProjectComponent from "./ProjectComponent";
 export default function Projects() {
   return (
     <div className=" grow px-4" id="projects">
-      <Section title={"Projects made with Tailwind and React.js"}>
+      <Section title={"Projects made with React.js"}>
         <ProjectComponent
           src={"/images/ElearnPage.png"}
           to="https://elearn-page.netlify.app/"
           description={"Responsive mobile-first WebPage"}
           github={`https://github.com/ceimiplace/elearning-page`}
+        />
+        <ProjectComponent
+          src={"/images/Responsive-react-webpage.png"}
+          to="https://responsive-react-webpage.netlify.app/"
+          description={"Responsive mobile-first WebPage"}
+          github={`https://github.com/ceimiplace/single-page-portofolio-frontendmentor-challenge`}
+        />
+        <ProjectComponent
+          src={"/images/RandomAdviceGenerator.png"}
+          to="https://reapers-lipstick.netlify.app/"
+          description={"Random Advice Generator "}
+          github={`https://github.com/ceimiplace/random-advice-generator`}
         />
         <ProjectComponent
           src={"/images/UnsplashAPI.jpg"}
