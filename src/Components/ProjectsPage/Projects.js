@@ -30,16 +30,14 @@ export default function Projects() {
           description={"Image gallery from Unsplash API  in mosonry layout ."}
           github={`https://github.com/ceimiplace/Search-app-Unsplash.com`}
         />
-        <ProjectComponent
-          src={"/images/ROBOPOSTS.png"}
-          to="https://blogs-posts.netlify.app/"
-          description={
-            "Single page application connected to the backend to Firebase ."
-          }
-          github={`https://github.com/ceimiplace/Blog-website`}
-        />
       </Section>
       <Section title={"Projects made with CSS and Vanilla JavaScript"}>
+        <ProjectComponent
+          src={"images/ipadress.png"}
+          to={"https://ipadresstracker94.netlify.app/"}
+          description={"Ip Adress tracker with geolocation"}
+          github={"https://github.com/ceimiplace/ip-adress"}
+        />
         <ProjectComponent
           src={"/images/randomJoke.jpg"}
           to="https://dadjokeys.netlify.app/"
