@@ -9,9 +9,7 @@ export default function Projects() {
         <ProjectComponent
           src={"/images/Github_User.png"}
           to="https://github-usearch.netlify.app/"
-          description={
-            "Responsive mobile first application that uses Github API"
-          }
+          description={"Github user finder"}
           github={`https://github.com/ceimiplace/github-user-finder`}
         />
         <ProjectComponent
