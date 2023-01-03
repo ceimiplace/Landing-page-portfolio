@@ -7,6 +7,14 @@ export default function Projects() {
     <div className=" grow px-4" id="projects">
       <Section title={"Projects made with React.js"}>
         <ProjectComponent
+          src={"/images/Github_User.png"}
+          to="https://github-usearch.netlify.app/"
+          description={
+            "Responsive mobile first application that uses Github API"
+          }
+          github={`https://github.com/ceimiplace/github-user-finder`}
+        />
+        <ProjectComponent
           src={"/images/ElearnPage.png"}
           to="https://elearn-page.netlify.app/"
           description={"Responsive mobile-first WebPage"}
